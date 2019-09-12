@@ -16,9 +16,9 @@ import missinglink
 
 missinglink_callback = missinglink.KerasCallback()
 
-batch_size = 128
+batch_size = 12
 num_classes = 10
-epochs = 1
+epochs = 100
 
 # input image dimensions
 img_rows, img_cols = 28, 28
